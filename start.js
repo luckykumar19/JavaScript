@@ -112,3 +112,13 @@
 
 // stand();
 
+const text =document.querySelector(".title");
+const changeColor = document.querySelector(".changeColor");
+
+// text.style.backgroundColor="red";
+// text.classList.add("change");
+text.classList.remove("change");
+changeColor.addEventListener('click',function(){
+text.classList.add('change')
+
+});
